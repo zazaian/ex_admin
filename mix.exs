@@ -64,7 +64,7 @@ defmodule ExAdmin.Mixfile do
   defp package do
     [ maintainers: ["Stephen Pallen", "Roman Smirnov"],
       licenses: ["MIT"],
-      links: %{ "Github" => "https://github.com/smpallen99/ex_admin" },
+      links: %{ "Github" => "https://github.com/zazaian/ex_admin" },
       files: ~w(lib priv web README.md package.json mix.exs LICENSE brunch-config.js AdminLte-LICENSE)]
   end
 end
