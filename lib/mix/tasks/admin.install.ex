@@ -74,7 +74,7 @@ defmodule Mix.Tasks.Admin.Install do
   defp check_config(config), do: config
 
   defp check_assets(%{assets: true, brunch: true} = config) do
-    unless File.exists? "brunch-config.js" do
+    unless File.exists? Path.join ~w(assets brunch-config.js) do
       Mix.raise """
       Can't find brunch-config.js
       """
